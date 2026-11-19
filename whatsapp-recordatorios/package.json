@@ -1,0 +1,15 @@
+{
+  "name": "whatsapp-recordatorios",
+  "version": "0.1.0",
+  "description": "Servicio de recordatorios por WhatsApp (webhook de WhatsApp Cloud API + scheduler)",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}
